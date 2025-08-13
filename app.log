@@ -1,0 +1,123 @@
+2025-08-13 09:37:48,433 - weather-bot - ERROR - OPENWEATHER_API_KEY not found in environment variables.
+2025-08-13 09:42:49,075 - weather-bot - ERROR - OPENWEATHER_API_KEY not found in environment variables.
+2025-08-13 09:49:00,539 - weather-bot - ERROR - OPENWEATHER_API_KEY not found in environment variables.
+2025-08-13 09:51:52,732 - weather-bot - INFO - Starting Weather Bot Application.
+2025-08-13 09:51:52,732 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 09:51:52,734 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 09:51:52,787 - weather-bot - INFO - Entering extract_city node. Requested location: London
+2025-08-13 09:51:52,788 - weather-bot - INFO - Entering fetch_weather node. Fetching data for London.
+2025-08-13 09:51:52,949 - weather-bot - INFO - Data found for London.
+2025-08-13 09:51:52,951 - weather-bot - INFO - Entering format_weather node. Formatting data for London.
+2025-08-13 09:51:52,951 - weather-bot - INFO - Formatted message: The current weather in London is clear sky. The temperature is 16.87°C, with 84% humidity. Wind speed is 1.52 m/s.
+2025-08-13 09:51:52,952 - weather-bot - INFO - Final response for London: The current weather in London is clear sky. The temperature is 16.87°C, with 84% humidity. Wind speed is 1.52 m/s.
+2025-08-13 09:51:52,953 - weather-bot - INFO - Entering extract_city node. Requested location: Mars
+2025-08-13 09:51:52,954 - weather-bot - INFO - Entering fetch_weather node. Fetching data for Mars.
+2025-08-13 09:51:53,082 - weather-bot - INFO - Data found for Mars.
+2025-08-13 09:51:53,083 - weather-bot - INFO - Entering format_weather node. Formatting data for Mars.
+2025-08-13 09:51:53,083 - weather-bot - INFO - Formatted message: The current weather in Mars is scattered clouds. The temperature is 23.24°C, with 84% humidity. Wind speed is 1.74 m/s.
+2025-08-13 09:51:53,084 - weather-bot - INFO - Final response for Mars: The current weather in Mars is scattered clouds. The temperature is 23.24°C, with 84% humidity. Wind speed is 1.74 m/s.
+2025-08-13 09:51:53,084 - weather-bot - INFO - Weather Bot Application finished running.
+2025-08-13 09:55:11,363 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 09:55:11,366 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 09:55:53,684 - weather-bot - INFO - Received request for location: delhi
+2025-08-13 09:55:53,691 - weather-bot - INFO - Entering extract_city node. Requested location: delhi
+2025-08-13 09:57:22,685 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 09:57:22,687 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 09:57:40,846 - weather-bot - INFO - Received request for location: delhi
+2025-08-13 09:57:40,851 - weather-bot - INFO - Entering extract_city node. Requested location: delhi
+2025-08-13 09:59:03,033 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 09:59:03,036 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 09:59:07,962 - weather-bot - INFO - Received request for location: delhi
+2025-08-13 09:59:07,967 - weather-bot - INFO - Entering extract_city node. Requested location: delhi
+2025-08-13 09:59:07,968 - weather-bot - INFO - Entering fetch_weather node. Fetching data for delhi.
+2025-08-13 09:59:08,126 - weather-bot - INFO - Data found for delhi.
+2025-08-13 09:59:40,985 - weather-bot - INFO - Received request for location: string
+2025-08-13 09:59:40,987 - weather-bot - INFO - Entering extract_city node. Requested location: string
+2025-08-13 09:59:40,988 - weather-bot - INFO - Entering fetch_weather node. Fetching data for string.
+2025-08-13 09:59:41,315 - weather-bot - WARNING - No data for string.
+2025-08-13 10:04:25,959 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:04:25,962 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:04:59,096 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:04:59,098 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:07:12,482 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:07:12,485 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:07:24,404 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:07:24,406 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:07:36,017 - weather-bot - INFO - Received request for location: string
+2025-08-13 10:07:36,020 - weather-bot - INFO - Entering extract_city node. Requested location: string
+2025-08-13 10:07:36,021 - weather-bot - INFO - Entering fetch_weather node. Fetching data for string.
+2025-08-13 10:07:36,350 - weather-bot - WARNING - No data for string.
+2025-08-13 10:07:36,351 - weather-bot - INFO - Entering format_weather node. Formatting data for string.
+2025-08-13 10:07:36,351 - weather-bot - INFO - Formatted message: Sorry, I couldn't find the weather for string. Please check the spelling and try again.
+2025-08-13 10:07:45,428 - weather-bot - INFO - Received request for location: string
+2025-08-13 10:07:45,429 - weather-bot - INFO - Entering extract_city node. Requested location: string
+2025-08-13 10:07:45,429 - weather-bot - INFO - Entering fetch_weather node. Fetching data for string.
+2025-08-13 10:07:45,573 - weather-bot - WARNING - No data for string.
+2025-08-13 10:07:45,574 - weather-bot - INFO - Entering format_weather node. Formatting data for string.
+2025-08-13 10:07:45,574 - weather-bot - INFO - Formatted message: Sorry, I couldn't find the weather for string. Please check the spelling and try again.
+2025-08-13 10:07:54,685 - weather-bot - INFO - Received request for location: Delhi
+2025-08-13 10:07:54,686 - weather-bot - INFO - Entering extract_city node. Requested location: Delhi
+2025-08-13 10:07:54,686 - weather-bot - INFO - Entering fetch_weather node. Fetching data for Delhi.
+2025-08-13 10:07:54,820 - weather-bot - INFO - Data found for Delhi.
+2025-08-13 10:07:54,822 - weather-bot - INFO - Entering format_weather node. Formatting data for Delhi.
+2025-08-13 10:08:28,814 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:08:28,816 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:08:46,409 - weather-bot - INFO - Received request for location: Delhi
+2025-08-13 10:08:46,413 - weather-bot - INFO - Entering extract_city node. Requested location: Delhi
+2025-08-13 10:08:46,414 - weather-bot - INFO - Entering fetch_weather node. Fetching data for Delhi.
+2025-08-13 10:08:46,597 - weather-bot - INFO - Data found for Delhi.
+2025-08-13 10:08:46,598 - weather-bot - INFO - Entering format_weather node. Formatting data for Delhi.
+2025-08-13 10:09:03,503 - weather-bot - INFO - Received request for location: Delhi
+2025-08-13 10:09:03,504 - weather-bot - INFO - Entering extract_city node. Requested location: Delhi
+2025-08-13 10:09:03,505 - weather-bot - INFO - Entering fetch_weather node. Fetching data for Delhi.
+2025-08-13 10:09:03,642 - weather-bot - INFO - Data found for Delhi.
+2025-08-13 10:09:03,644 - weather-bot - INFO - Entering format_weather node. Formatting data for Delhi.
+2025-08-13 10:10:00,323 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:10:00,325 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:10:07,618 - weather-bot - INFO - Received request for location: Delhi
+2025-08-13 10:10:07,623 - weather-bot - INFO - Entering extract_city node. Requested location: Delhi
+2025-08-13 10:10:07,624 - weather-bot - INFO - Entering fetch_weather node. Fetching data for Delhi.
+2025-08-13 10:10:07,765 - weather-bot - INFO - Data found for Delhi.
+2025-08-13 10:10:07,767 - weather-bot - INFO - Entering format_weather node. Formatting data for Delhi.
+2025-08-13 10:10:07,768 - weather-bot - INFO - Formatted message: The current weather in Delhi is overcast clouds. The temperature is 30.34°C, with 65% humidity. Wind speed is 3.8 m/s.
+2025-08-13 10:15:45,427 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:15:45,431 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:15:45,434 - weather-bot - INFO - Entering extract_city node. Requested location: London
+2025-08-13 10:15:45,435 - weather-bot - INFO - Entering fetch_weather node. Fetching data for London.
+2025-08-13 10:15:45,602 - weather-bot - INFO - Data found for London.
+2025-08-13 10:15:45,606 - weather-bot - INFO - Entering format_weather node. Formatting data for London.
+2025-08-13 10:15:45,607 - weather-bot - INFO - Formatted message: The current weather in London is few clouds. The temperature is 17.23°C, with 78% humidity. Wind speed is 0.63 m/s.
+2025-08-13 10:16:56,379 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:16:56,384 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:24:32,450 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:24:32,453 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:24:48,216 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:24:48,220 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:36:31,161 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:36:31,164 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:36:31,208 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:36:31,210 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:36:56,861 - weather-bot - INFO - Received request: Delhi
+2025-08-13 10:36:56,865 - weather-bot - INFO - Entering extract_city node. User input: Delhi
+2025-08-13 10:36:58,880 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-13 10:37:01,273 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-13 10:37:05,676 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-13 10:37:13,992 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 16.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-13 10:37:30,356 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 32.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-08-13 10:38:02,716 - weather-bot - ERROR - LLM city extraction failed: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-08-13 10:38:02,717 - weather-bot - WARNING - Could not extract a city from the user's input.
+2025-08-13 10:38:02,719 - weather-bot - INFO - Entering fetch_weather node. Fetching data for None.
+2025-08-13 10:38:02,899 - weather-bot - WARNING - No data for None.
+2025-08-13 10:38:02,901 - weather-bot - INFO - Entering format_weather node. Formatting data for None.
+2025-08-13 10:38:02,901 - weather-bot - INFO - Formatted message: I'm sorry, I couldn't understand which city you were asking about.
+2025-08-13 10:38:47,159 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:38:47,161 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:38:47,368 - weather-bot - INFO - Creating LangGraph.
+2025-08-13 10:38:47,371 - weather-bot - INFO - LangGraph compiled successfully.
+2025-08-13 10:38:55,229 - weather-bot - INFO - Received request: Delhi
+2025-08-13 10:38:55,232 - weather-bot - INFO - Entering extract_city node. User input: Delhi
+2025-08-13 10:39:00,980 - weather-bot - INFO - Extracted city: Delhi
+2025-08-13 10:39:00,982 - weather-bot - INFO - Entering fetch_weather node. Fetching data for Delhi.
+2025-08-13 10:39:01,231 - weather-bot - INFO - Data found for Delhi.
+2025-08-13 10:39:01,233 - weather-bot - INFO - Entering format_weather node. Formatting data for Delhi.
+2025-08-13 10:39:17,781 - weather-bot - INFO - Formatted message: Of course! It's currently an overcast day in Delhi. The temperature is 32°C, but it feels more like 36°C with the humidity at 55%.
