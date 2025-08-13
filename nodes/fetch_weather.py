@@ -28,6 +28,7 @@ def fetch_weather(state: WeatherBotState) -> WeatherBotState:
         logger.error("API key is missing, cannot fetch live weather.")
         return {**state, "weather_data": None}
 
+
     weather_data = get_weather_live(location, api_key)
 
     if weather_data:

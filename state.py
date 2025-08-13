@@ -1,25 +1,19 @@
 # state.py
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List
+from langchain_core.messages import BaseMessage
 
 class LocationRequest(BaseModel):
     """
     A simple Pydantic model for the API request body.
-    We now expect a full sentence from the user, not just a city.
     """
     user_input: str
 
-class WeatherBotState(BaseModel):
+class AgentState(BaseModel):
     """
-    Represents the state of our weather bot.
+    Represents the state of our LangGraph agent.
     
     Attributes:
-        user_input (str): The raw text from the user.
-        location (Optional[str]): The city extracted from the user's input.
-        weather_data (Optional[dict]): The raw weather data fetched.
-        response_message (Optional[str]): The final formatted message to display.
+        messages (List[BaseMessage]): A list of all messages in the conversation.
     """
-    user_input: str
-    location: Optional[str] = None
-    weather_data: Optional[dict] = None
-    response_message: Optional[str] = None
+    messages: List[BaseMessage] = []

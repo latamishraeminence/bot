@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 # Load environment variables from a .env file
 load_dotenv() 
 
+
 # Initialize the LLM with your Gemini API key
 api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:

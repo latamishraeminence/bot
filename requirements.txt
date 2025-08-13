@@ -1,0 +1,10 @@
+langgraph
+langchain
+langchain_core
+python-dotenv
+requests
+uvicorn
+fastapi
+langchain-google-genai
+google-api-python-client
+google-auth

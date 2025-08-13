@@ -1,41 +1,39 @@
 # services/weather_service.py
-# This service file is responsible for all interactions with the
-# OpenWeather API.
-
 import requests
 import os
 from typing import Optional
+from langchain_core.tools import tool
 
-def get_weather_live(location: str, api_key: str) -> Optional[dict]:
+from dotenv import load_dotenv
+load_dotenv()
+
+@tool
+def get_weather_live_tool(location: str) -> str:
     """
-    Fetches live weather data from the OpenWeatherMap API.
-
+    Fetches live weather data from the OpenWeatherMap API for a given location.
+    
     Args:
         location (str): The city name to search for.
-        api_key (str): The OpenWeatherMap API key.
-
+    
     Returns:
-        Optional[dict]: The weather data dictionary, or None if an error occurs.
+        str: The weather data as a JSON string, or a message indicating an error.
     """
+    api_key = os.getenv("OPENWEATHER_API_KEY")
+    if not api_key:
+        return "Error: OPENWEATHER_API_KEY is not set."
+
     base_url = "http://api.openweathermap.org/data/2.5/weather"
     params = {
         "q": location,
         "appid": api_key,
-        "units": "metric"  # Get temperature in Celsius
+        "units": "metric"
     }
 
     try:
         response = requests.get(base_url, params=params)
-        response.raise_for_status()  # Raises an HTTPError for bad responses (4xx or 5xx)
+        response.raise_for_status()
         return response.json()
     except requests.exceptions.HTTPError as err:
-        if response.status_code == 404:
-            print(f"City not found: {location}")
-        else:
-            print(f"HTTP Error: {err}")
-    except requests.exceptions.RequestException as err:
-        print(f"Request Error: {err}")
+        return f"HTTP Error: {err}. City not found."
     except Exception as err:
-        print(f"An unexpected error occurred: {err}")
-    
-    return None
+        return f"An unexpected error occurred: {err}"

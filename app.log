@@ -121,3 +121,1556 @@
 2025-08-13 10:39:01,231 - weather-bot - INFO - Data found for Delhi.
 2025-08-13 10:39:01,233 - weather-bot - INFO - Entering format_weather node. Formatting data for Delhi.
 2025-08-13 10:39:17,781 - weather-bot - INFO - Formatted message: Of course! It's currently an overcast day in Delhi. The temperature is 32°C, but it feels more like 36°C with the humidity at 55%.
+2025-08-13 13:07:05,722 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:07:05,724 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:07:46,451 - weather-bot - INFO - Received request: weather in chandigarh
+2025-08-13 13:07:58,385 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:09:05,256 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:09:05,261 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:09:12,440 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:09:14,284 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+].
+2025-08-13 13:09:16,639 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 4.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 43
+}
+].
+2025-08-13 13:09:21,146 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 8.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 39
+}
+].
+2025-08-13 13:09:29,532 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 16.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+].
+2025-08-13 13:09:45,863 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 32.0 seconds as it raised ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+].
+2025-08-13 13:10:42,517 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:10:42,519 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:10:47,283 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:12:05,969 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:12:05,971 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:12:12,280 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:13:26,713 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:13:26,715 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:13:40,659 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:15:05,634 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:15:05,636 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:15:10,812 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:17:21,122 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:17:21,124 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:17:39,258 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:17:39,260 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:17:50,898 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:22:08,921 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:22:08,923 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:22:34,173 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:22:34,175 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:22:54,590 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:23:55,561 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:23:55,563 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:24:01,591 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:25:37,873 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:25:37,875 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:25:42,380 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:25:45,755 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised InternalServerError: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting.
+2025-08-13 13:27:06,448 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:27:06,450 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:27:35,045 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:27:35,047 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:29:10,846 - weather-bot - INFO - Received request: weather in delhi
+2025-08-13 13:29:19,371 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 30, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 32, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 13:29:28,510 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:31:42,625 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:32:00,240 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:32:07,618 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 30, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 32, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 13:33:51,027 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:33:51,029 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:33:59,360 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:34:05,380 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 30, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 34, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 13:35:17,963 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:35:17,965 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:35:37,615 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:35:37,617 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:35:45,969 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:36:00,889 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 31, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 34, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 13:38:24,597 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:38:24,599 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:38:46,248 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:38:46,251 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:39:08,254 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 13:39:08,256 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 13:39:29,588 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 13:39:36,931 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 32, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 34, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 14:33:18,702 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:33:18,704 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:33:23,732 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:33:29,224 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 32, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 34, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 14:38:07,215 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:38:07,218 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:38:13,531 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:38:20,684 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 32, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 33, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 14:39:09,127 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:39:09,129 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:39:12,031 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:41:21,157 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:41:21,160 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:41:24,352 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:42:36,259 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:42:36,262 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:42:38,478 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:42:43,213 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 32, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 32, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 14:43:41,907 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:43:41,910 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:43:46,281 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:43:55,511 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 32, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 32, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 14:44:32,928 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:44:32,930 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:44:43,414 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:44:43,416 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:44:48,565 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:44:54,596 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 31, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 32, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 14:45:22,419 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:45:22,421 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:45:25,140 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:47:02,492 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:47:02,494 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:47:05,641 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:47:12,428 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 31, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 33, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 14:50:21,060 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:50:21,062 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:50:30,869 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:50:30,871 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:50:35,176 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:50:40,808 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 31, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 33, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 14:50:55,140 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 14:50:55,142 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 14:51:11,101 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 14:51:15,215 - weather-bot - ERROR - Exception in ASGI application: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 31, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 33, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 15:15:17,903 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 15:15:17,906 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 15:15:17,907 - weather-bot - INFO - App started
+2025-08-13 15:15:24,027 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 15:15:27,607 - weather-bot - ERROR - Exception in /weather endpoint: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 35, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 33, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 15:39:20,021 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 15:39:49,308 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 15:39:52,265 - weather-bot - ERROR - Exception in /weather endpoint: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 35, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 33, in call_llm
+    response = llm_with_tools.invoke(messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 15:45:45,738 - weather-bot - INFO - App shutting down
+2025-08-13 15:47:40,710 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 15:47:40,712 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 15:47:40,713 - weather-bot - INFO - App started
+2025-08-13 15:48:27,147 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 15:48:32,762 - weather-bot - ERROR - Exception in /weather endpoint: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 216, in _chat_with_retry
+    return generation_method(**kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 868, in generate_content
+    response = rpc(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.contents: contents is not specified
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/main.py", line 35, in get_weather_endpoint
+    final_state = graph.invoke(inputs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 3026, in invoke
+    for chunk in self.stream(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/main.py", line 2647, in stream
+    for _ in runner.tick(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_runner.py", line 162, in tick
+    run_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/pregel/_retry.py", line 42, in run_with_retry
+    return task.proc.invoke(task.input, config)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 657, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langgraph/_internal/_runnable.py", line 401, in invoke
+    ret = self.func(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/WeatherBOT/graph_flow.py", line 42, in call_llm
+    response = llm_with_tools.invoke(safe_messages)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/runnables/base.py", line 5441, in invoke
+    return self.bound.invoke(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1488, in invoke
+    return super().invoke(input, config, stop=stop, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 383, in invoke
+    self.generate_prompt(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1006, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 825, in generate
+    self._generate_with_cache(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_core/language_models/chat_models.py", line 1072, in _generate_with_cache
+    result = self._generate(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 1595, in _generate
+    response: GenerateContentResponse = _chat_with_retry(
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 247, in _chat_with_retry
+    return _chat_with_retry(**params)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/home/webexpert/Desktop/MyProjects/venv/lib/python3.10/site-packages/langchain_google_genai/chat_models.py", line 227, in _chat_with_retry
+    raise ChatGoogleGenerativeAIError(
+langchain_google_genai.chat_models.ChatGoogleGenerativeAIError: Invalid argument provided to Gemini: 400 * GenerateContentRequest.contents: contents is not specified
+
+2025-08-13 15:49:53,037 - weather-bot - INFO - App shutting down
+2025-08-13 15:49:53,786 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 15:49:53,789 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 15:49:53,790 - weather-bot - INFO - App started
+2025-08-13 15:50:11,673 - weather-bot - INFO - App shutting down
+2025-08-13 15:50:12,472 - weather-bot - INFO - Creating LangGraph for agent with tools.
+2025-08-13 15:50:12,475 - weather-bot - INFO - LangGraph agent compiled successfully.
+2025-08-13 15:50:12,476 - weather-bot - INFO - App started
+2025-08-13 15:50:22,083 - weather-bot - INFO - Received request: weather in Delhi
+2025-08-13 15:57:42,249 - weather-bot - INFO - App shutting down
