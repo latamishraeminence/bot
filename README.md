@@ -1,7 +1,5 @@
 # Weather Bot
 
-# Weather Bot
-
 A Python-based weather bot that fetches and processes weather data (presumably for chat or automation purposes).
 
 ---
